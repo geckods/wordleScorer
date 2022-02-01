@@ -1,0 +1,17 @@
+{
+  "name": "Wordle Scorer",
+  "description": "A Scorer for the popular game wordle. Gives a single metric that indicates how good one is at the game.",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "author": "Abhinav Ramachandran",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {},
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting",
+    "storage"
+  ]
+}
